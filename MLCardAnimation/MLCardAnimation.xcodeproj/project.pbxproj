@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D15A47541DE2EB0700B1524F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D15A47531DE2EB0700B1524F /* main.m */; };
+		D15A47571DE2EB0700B1524F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D15A47561DE2EB0700B1524F /* AppDelegate.m */; };
+		D15A47591DE2EB0700B1524F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D15A47581DE2EB0700B1524F /* Assets.xcassets */; };
+		D15A475C1DE2EB0700B1524F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D15A475A1DE2EB0700B1524F /* LaunchScreen.storyboard */; };
+		D15A47671DE2EB0900B1524F /* MLCardAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D15A47661DE2EB0900B1524F /* MLCardAnimationTests.m */; };
+		D15A47721DE2EB0900B1524F /* MLCardAnimationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D15A47711DE2EB0900B1524F /* MLCardAnimationUITests.m */; };
+		D15A47811DE3DF8800B1524F /* MLDragCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = D15A47801DE3DF8800B1524F /* MLDragCardView.m */; };
+		D15A47841DE3DFA100B1524F /* MLCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D15A47831DE3DFA100B1524F /* MLCardViewController.m */; };
+		D15A47931DE4160500B1524F /* dislikeBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = D15A47861DE4160500B1524F /* dislikeBtn.png */; };
+		D15A47941DE4160500B1524F /* likeBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = D15A47871DE4160500B1524F /* likeBtn.png */; };
+		D15A47951DE4160500B1524F /* 10.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = D15A47881DE4160500B1524F /* 10.jpeg */; };
+		D15A47961DE4160500B1524F /* 5.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = D15A47891DE4160500B1524F /* 5.jpeg */; };
+		D15A47971DE4160500B1524F /* 4.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = D15A478A1DE4160500B1524F /* 4.jpeg */; };
+		D15A47981DE4160500B1524F /* 3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = D15A478B1DE4160500B1524F /* 3.jpeg */; };
+		D15A47991DE4160500B1524F /* 6.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = D15A478C1DE4160500B1524F /* 6.jpeg */; };
+		D15A479A1DE4160500B1524F /* 2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = D15A478D1DE4160500B1524F /* 2.jpeg */; };
+		D15A479B1DE4160500B1524F /* 1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = D15A478E1DE4160500B1524F /* 1.jpeg */; };
+		D15A479C1DE4160500B1524F /* 7.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = D15A478F1DE4160500B1524F /* 7.jpeg */; };
+		D15A479D1DE4160500B1524F /* 8.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = D15A47901DE4160500B1524F /* 8.jpeg */; };
+		D15A479E1DE4160500B1524F /* 0.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = D15A47911DE4160500B1524F /* 0.jpeg */; };
+		D15A479F1DE4160500B1524F /* 9.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = D15A47921DE4160500B1524F /* 9.jpeg */; };
+		D15A47A11DE5697600B1524F /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D15A47A01DE5697600B1524F /* Icon.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D15A47631DE2EB0900B1524F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D15A47471DE2EB0600B1524F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D15A474E1DE2EB0600B1524F;
+			remoteInfo = MLCardAnimation;
+		};
+		D15A476E1DE2EB0900B1524F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D15A47471DE2EB0600B1524F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D15A474E1DE2EB0600B1524F;
+			remoteInfo = MLCardAnimation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D15A474F1DE2EB0600B1524F /* MLCardAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MLCardAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D15A47531DE2EB0700B1524F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D15A47551DE2EB0700B1524F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D15A47561DE2EB0700B1524F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D15A47581DE2EB0700B1524F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D15A475B1DE2EB0700B1524F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D15A475D1DE2EB0700B1524F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D15A47621DE2EB0900B1524F /* MLCardAnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MLCardAnimationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D15A47661DE2EB0900B1524F /* MLCardAnimationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MLCardAnimationTests.m; sourceTree = "<group>"; };
+		D15A47681DE2EB0900B1524F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D15A476D1DE2EB0900B1524F /* MLCardAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MLCardAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D15A47711DE2EB0900B1524F /* MLCardAnimationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MLCardAnimationUITests.m; sourceTree = "<group>"; };
+		D15A47731DE2EB0900B1524F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D15A477F1DE3DF8800B1524F /* MLDragCardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLDragCardView.h; sourceTree = "<group>"; };
+		D15A47801DE3DF8800B1524F /* MLDragCardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLDragCardView.m; sourceTree = "<group>"; };
+		D15A47821DE3DFA100B1524F /* MLCardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLCardViewController.h; sourceTree = "<group>"; };
+		D15A47831DE3DFA100B1524F /* MLCardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLCardViewController.m; sourceTree = "<group>"; };
+		D15A47851DE3E01E00B1524F /* CardHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CardHeader.h; sourceTree = "<group>"; };
+		D15A47861DE4160500B1524F /* dislikeBtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dislikeBtn.png; sourceTree = "<group>"; };
+		D15A47871DE4160500B1524F /* likeBtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = likeBtn.png; sourceTree = "<group>"; };
+		D15A47881DE4160500B1524F /* 10.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 10.jpeg; sourceTree = "<group>"; };
+		D15A47891DE4160500B1524F /* 5.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5.jpeg; sourceTree = "<group>"; };
+		D15A478A1DE4160500B1524F /* 4.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpeg; sourceTree = "<group>"; };
+		D15A478B1DE4160500B1524F /* 3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpeg; sourceTree = "<group>"; };
+		D15A478C1DE4160500B1524F /* 6.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 6.jpeg; sourceTree = "<group>"; };
+		D15A478D1DE4160500B1524F /* 2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpeg; sourceTree = "<group>"; };
+		D15A478E1DE4160500B1524F /* 1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpeg; sourceTree = "<group>"; };
+		D15A478F1DE4160500B1524F /* 7.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 7.jpeg; sourceTree = "<group>"; };
+		D15A47901DE4160500B1524F /* 8.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 8.jpeg; sourceTree = "<group>"; };
+		D15A47911DE4160500B1524F /* 0.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 0.jpeg; sourceTree = "<group>"; };
+		D15A47921DE4160500B1524F /* 9.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 9.jpeg; sourceTree = "<group>"; };
+		D15A47A01DE5697600B1524F /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D15A474C1DE2EB0600B1524F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D15A475F1DE2EB0900B1524F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D15A476A1DE2EB0900B1524F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D15A47461DE2EB0600B1524F = {
+			isa = PBXGroup;
+			children = (
+				D15A47511DE2EB0600B1524F /* MLCardAnimation */,
+				D15A47651DE2EB0900B1524F /* MLCardAnimationTests */,
+				D15A47701DE2EB0900B1524F /* MLCardAnimationUITests */,
+				D15A47501DE2EB0600B1524F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D15A47501DE2EB0600B1524F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D15A474F1DE2EB0600B1524F /* MLCardAnimation.app */,
+				D15A47621DE2EB0900B1524F /* MLCardAnimationTests.xctest */,
+				D15A476D1DE2EB0900B1524F /* MLCardAnimationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D15A47511DE2EB0600B1524F /* MLCardAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				D15A47551DE2EB0700B1524F /* AppDelegate.h */,
+				D15A47561DE2EB0700B1524F /* AppDelegate.m */,
+				D15A477F1DE3DF8800B1524F /* MLDragCardView.h */,
+				D15A47801DE3DF8800B1524F /* MLDragCardView.m */,
+				D15A47821DE3DFA100B1524F /* MLCardViewController.h */,
+				D15A47831DE3DFA100B1524F /* MLCardViewController.m */,
+				D15A47851DE3E01E00B1524F /* CardHeader.h */,
+				D15A47A01DE5697600B1524F /* Icon.png */,
+				D15A47861DE4160500B1524F /* dislikeBtn.png */,
+				D15A47871DE4160500B1524F /* likeBtn.png */,
+				D15A47881DE4160500B1524F /* 10.jpeg */,
+				D15A47891DE4160500B1524F /* 5.jpeg */,
+				D15A478A1DE4160500B1524F /* 4.jpeg */,
+				D15A478B1DE4160500B1524F /* 3.jpeg */,
+				D15A478C1DE4160500B1524F /* 6.jpeg */,
+				D15A478D1DE4160500B1524F /* 2.jpeg */,
+				D15A478E1DE4160500B1524F /* 1.jpeg */,
+				D15A478F1DE4160500B1524F /* 7.jpeg */,
+				D15A47901DE4160500B1524F /* 8.jpeg */,
+				D15A47911DE4160500B1524F /* 0.jpeg */,
+				D15A47921DE4160500B1524F /* 9.jpeg */,
+				D15A47581DE2EB0700B1524F /* Assets.xcassets */,
+				D15A475A1DE2EB0700B1524F /* LaunchScreen.storyboard */,
+				D15A475D1DE2EB0700B1524F /* Info.plist */,
+				D15A47521DE2EB0700B1524F /* Supporting Files */,
+			);
+			path = MLCardAnimation;
+			sourceTree = "<group>";
+		};
+		D15A47521DE2EB0700B1524F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D15A47531DE2EB0700B1524F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D15A47651DE2EB0900B1524F /* MLCardAnimationTests */ = {
+			isa = PBXGroup;
+			children = (
+				D15A47661DE2EB0900B1524F /* MLCardAnimationTests.m */,
+				D15A47681DE2EB0900B1524F /* Info.plist */,
+			);
+			path = MLCardAnimationTests;
+			sourceTree = "<group>";
+		};
+		D15A47701DE2EB0900B1524F /* MLCardAnimationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D15A47711DE2EB0900B1524F /* MLCardAnimationUITests.m */,
+				D15A47731DE2EB0900B1524F /* Info.plist */,
+			);
+			path = MLCardAnimationUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D15A474E1DE2EB0600B1524F /* MLCardAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D15A47761DE2EB0900B1524F /* Build configuration list for PBXNativeTarget "MLCardAnimation" */;
+			buildPhases = (
+				D15A474B1DE2EB0600B1524F /* Sources */,
+				D15A474C1DE2EB0600B1524F /* Frameworks */,
+				D15A474D1DE2EB0600B1524F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MLCardAnimation;
+			productName = MLCardAnimation;
+			productReference = D15A474F1DE2EB0600B1524F /* MLCardAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D15A47611DE2EB0900B1524F /* MLCardAnimationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D15A47791DE2EB0900B1524F /* Build configuration list for PBXNativeTarget "MLCardAnimationTests" */;
+			buildPhases = (
+				D15A475E1DE2EB0900B1524F /* Sources */,
+				D15A475F1DE2EB0900B1524F /* Frameworks */,
+				D15A47601DE2EB0900B1524F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D15A47641DE2EB0900B1524F /* PBXTargetDependency */,
+			);
+			name = MLCardAnimationTests;
+			productName = MLCardAnimationTests;
+			productReference = D15A47621DE2EB0900B1524F /* MLCardAnimationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D15A476C1DE2EB0900B1524F /* MLCardAnimationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D15A477C1DE2EB0900B1524F /* Build configuration list for PBXNativeTarget "MLCardAnimationUITests" */;
+			buildPhases = (
+				D15A47691DE2EB0900B1524F /* Sources */,
+				D15A476A1DE2EB0900B1524F /* Frameworks */,
+				D15A476B1DE2EB0900B1524F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D15A476F1DE2EB0900B1524F /* PBXTargetDependency */,
+			);
+			name = MLCardAnimationUITests;
+			productName = MLCardAnimationUITests;
+			productReference = D15A476D1DE2EB0900B1524F /* MLCardAnimationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D15A47471DE2EB0600B1524F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = maweilong;
+				TargetAttributes = {
+					D15A474E1DE2EB0600B1524F = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					D15A47611DE2EB0900B1524F = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D15A474E1DE2EB0600B1524F;
+					};
+					D15A476C1DE2EB0900B1524F = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D15A474E1DE2EB0600B1524F;
+					};
+				};
+			};
+			buildConfigurationList = D15A474A1DE2EB0600B1524F /* Build configuration list for PBXProject "MLCardAnimation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D15A47461DE2EB0600B1524F;
+			productRefGroup = D15A47501DE2EB0600B1524F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D15A474E1DE2EB0600B1524F /* MLCardAnimation */,
+				D15A47611DE2EB0900B1524F /* MLCardAnimationTests */,
+				D15A476C1DE2EB0900B1524F /* MLCardAnimationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D15A474D1DE2EB0600B1524F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D15A479F1DE4160500B1524F /* 9.jpeg in Resources */,
+				D15A479D1DE4160500B1524F /* 8.jpeg in Resources */,
+				D15A479B1DE4160500B1524F /* 1.jpeg in Resources */,
+				D15A479C1DE4160500B1524F /* 7.jpeg in Resources */,
+				D15A47A11DE5697600B1524F /* Icon.png in Resources */,
+				D15A479A1DE4160500B1524F /* 2.jpeg in Resources */,
+				D15A47591DE2EB0700B1524F /* Assets.xcassets in Resources */,
+				D15A47951DE4160500B1524F /* 10.jpeg in Resources */,
+				D15A47931DE4160500B1524F /* dislikeBtn.png in Resources */,
+				D15A475C1DE2EB0700B1524F /* LaunchScreen.storyboard in Resources */,
+				D15A479E1DE4160500B1524F /* 0.jpeg in Resources */,
+				D15A47971DE4160500B1524F /* 4.jpeg in Resources */,
+				D15A47981DE4160500B1524F /* 3.jpeg in Resources */,
+				D15A47991DE4160500B1524F /* 6.jpeg in Resources */,
+				D15A47941DE4160500B1524F /* likeBtn.png in Resources */,
+				D15A47961DE4160500B1524F /* 5.jpeg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D15A47601DE2EB0900B1524F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D15A476B1DE2EB0900B1524F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D15A474B1DE2EB0600B1524F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D15A47811DE3DF8800B1524F /* MLDragCardView.m in Sources */,
+				D15A47571DE2EB0700B1524F /* AppDelegate.m in Sources */,
+				D15A47541DE2EB0700B1524F /* main.m in Sources */,
+				D15A47841DE3DFA100B1524F /* MLCardViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D15A475E1DE2EB0900B1524F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D15A47671DE2EB0900B1524F /* MLCardAnimationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D15A47691DE2EB0900B1524F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D15A47721DE2EB0900B1524F /* MLCardAnimationUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D15A47641DE2EB0900B1524F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D15A474E1DE2EB0600B1524F /* MLCardAnimation */;
+			targetProxy = D15A47631DE2EB0900B1524F /* PBXContainerItemProxy */;
+		};
+		D15A476F1DE2EB0900B1524F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D15A474E1DE2EB0600B1524F /* MLCardAnimation */;
+			targetProxy = D15A476E1DE2EB0900B1524F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D15A475A1DE2EB0700B1524F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D15A475B1DE2EB0700B1524F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D15A47741DE2EB0900B1524F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D15A47751DE2EB0900B1524F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D15A47771DE2EB0900B1524F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MLCardAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = maweilong.MLCardAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D15A47781DE2EB0900B1524F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MLCardAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = maweilong.MLCardAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D15A477A1DE2EB0900B1524F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MLCardAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = maweilong.MLCardAnimationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MLCardAnimation.app/MLCardAnimation";
+			};
+			name = Debug;
+		};
+		D15A477B1DE2EB0900B1524F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MLCardAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = maweilong.MLCardAnimationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MLCardAnimation.app/MLCardAnimation";
+			};
+			name = Release;
+		};
+		D15A477D1DE2EB0900B1524F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MLCardAnimationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = maweilong.MLCardAnimationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MLCardAnimation;
+			};
+			name = Debug;
+		};
+		D15A477E1DE2EB0900B1524F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MLCardAnimationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = maweilong.MLCardAnimationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MLCardAnimation;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D15A474A1DE2EB0600B1524F /* Build configuration list for PBXProject "MLCardAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D15A47741DE2EB0900B1524F /* Debug */,
+				D15A47751DE2EB0900B1524F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D15A47761DE2EB0900B1524F /* Build configuration list for PBXNativeTarget "MLCardAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D15A47771DE2EB0900B1524F /* Debug */,
+				D15A47781DE2EB0900B1524F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D15A47791DE2EB0900B1524F /* Build configuration list for PBXNativeTarget "MLCardAnimationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D15A477A1DE2EB0900B1524F /* Debug */,
+				D15A477B1DE2EB0900B1524F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D15A477C1DE2EB0900B1524F /* Build configuration list for PBXNativeTarget "MLCardAnimationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D15A477D1DE2EB0900B1524F /* Debug */,
+				D15A477E1DE2EB0900B1524F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D15A47471DE2EB0600B1524F /* Project object */;
+}
